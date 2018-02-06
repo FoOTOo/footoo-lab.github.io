@@ -60,39 +60,6 @@
 	border-bottom: none;
 }
 
-#nav-arrows > a {
-  border: 1px solid #fff;
-  color: #fff;
-  display: block;
-  height: 60px;
-  line-height: 76px;
-  position: absolute;
-  text-align: center;
-  top: 50%;
-  width: 60px;
-  z-index: 20;
-  margin-top: -30px;
-
-    -webkit-transition: all 0.5s ease 0s;
-       -moz-transition: all 0.5s ease 0s;
-        -ms-transition: all 0.5s ease 0s;
-         -o-transition: all 0.5s ease 0s;
-            transition: all 0.5s ease 0s;
-}
-
-#nav-arrows > a.sl-prev {
-	left: 50px;
-}
-
-#nav-arrows > a.sl-next {
-	right: 50px;
-}
-
-#nav-arrows > a.sl-next:hover {
-	background-color: #009EE3;
-	border-color: #009EE3;
-	color: #fff;
-}
 
 /* Custom navigation dots */
 
@@ -154,15 +121,6 @@
 	background: rgba(255,255,255,0.8);
 }
 
-.bg-img-1 {
-	background-image: url(../img/slider/banner.jpg);
-}
-.bg-img-2 {
-	background-image: url(../img/slider/affinity.jpeg);
-}
-.bg-img-3 {
-	background-image: url(../img/slider/cinelli.jpeg);
-}
 
 
 /* Animations for content elements */

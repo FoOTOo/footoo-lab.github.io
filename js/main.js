@@ -83,6 +83,35 @@ $(function() {
 
 $(document).ready(function(){
 
+    /* ========================================================================= */
+    /*  Portfolio
+    /* ========================================================================= */
+    var $projectWrapper = $('.project-wrapper');
+    $projectWrapper.isotope({
+        filter: '*',
+        animationOptions: {
+            duration: 750,
+            easing: 'linear',
+            queue: false
+        }
+    });
+    
+    $('.portfolio-filter a').click(function(){
+        $('.portfolio-filter .active').removeClass('active');
+        $(this).addClass('active');
+    
+        var selector = $(this).attr('data-filter');
+        $projectWrapper.isotope({
+            filter: selector,
+            animationOptions: {
+                duration: 750,
+                easing: 'linear',
+                queue: false
+            }
+         });
+         return false;
+    }); 
+
 	/* ========================================================================= */
 	/*	Menu item highlighting
 	/* ========================================================================= */
