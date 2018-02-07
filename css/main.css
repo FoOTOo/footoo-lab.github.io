@@ -1180,6 +1180,10 @@ textarea.form-control {
         margin-bottom: 50px;
     }
 
+    .work-item svg {
+        margin-left: 10px;
+    }
+
     .service-item {
         margin-bottom: 50px;
     }
