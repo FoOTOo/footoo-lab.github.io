@@ -597,6 +597,15 @@ h1.navbar-brand {
     color: #009ee3;
 }
 
+.service-icon i {
+    -webkit-transform: rotate(-47deg);
+       -moz-transform: rotate(-47deg);
+        -ms-transform: rotate(-47deg);
+         -o-transform: rotate(-47deg);
+            transform: rotate(-47deg);
+}
+
+
 .service-icon svg {
     -webkit-transform: rotate(-47deg);
        -moz-transform: rotate(-47deg);
