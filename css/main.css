@@ -539,6 +539,14 @@ h1.navbar-brand {
     margin-bottom: 70px;
 }
 
+.work-item a {
+    color: #fff;
+}
+
+.work-item svg {
+    margin-left: 5px;
+}
+
 .owl-buttons {
     border: 2px solid #fff;
     display: inline-block;
@@ -1178,14 +1186,6 @@ textarea.form-control {
 /* about */
     .recent-works {
         margin-bottom: 50px;
-    }
-
-    .work-item a {
-        color: #fff;
-    }
-
-    .work-item svg {
-        margin-left: 5px;
     }
 
     .service-item {
