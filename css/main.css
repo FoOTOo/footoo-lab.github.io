@@ -1440,3 +1440,11 @@ textarea.form-control {
         width: 380px;
     }
 }
+
+.contact-details>h3 {
+    margin-top: 7px;
+}
+
+.contact-details>p {
+    margin-top: 24px;
+}
