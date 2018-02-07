@@ -598,11 +598,11 @@ h1.navbar-brand {
 }
 
 .service-icon svg {
-    -webkit-transform: rotate(-48deg);
-       -moz-transform: rotate(-48deg);
-        -ms-transform: rotate(-48deg);
-         -o-transform: rotate(-48deg);
-            transform: rotate(-48deg);
+    -webkit-transform: rotate(-47deg);
+       -moz-transform: rotate(-47deg);
+        -ms-transform: rotate(-47deg);
+         -o-transform: rotate(-47deg);
+            transform: rotate(-47deg);
 }
 
 .service-item h3 {
