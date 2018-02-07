@@ -1180,6 +1180,10 @@ textarea.form-control {
         margin-bottom: 50px;
     }
 
+    .work-item a {
+        color: #fff;
+    }
+
     .work-item svg {
         margin-left: 5px;
     }
